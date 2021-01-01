@@ -13,5 +13,5 @@ function mapToSquare(sourceArray){
 
 }
 function reduceToTotal(sourceArray){
-  return sourceArray.reduce((accumulator, currentValue) => accumulator + currentValue)
+  return sourceArray.reduce((accumulator, currentValue) => accumulator + currentValue,0)
 }
